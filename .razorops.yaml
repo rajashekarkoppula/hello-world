@@ -1,3 +1,4 @@
+
 tasks:
   unit-test:
     runner: razorci/openjdk:11-buster
@@ -10,7 +11,7 @@ tasks:
         ls -a 
         cd webapp
         ls target
-      - docker/build:
+    - docker/build:
          image: shivaawstest.jfrog.io/default-docker
          push: true
          #tags: ["latest-v1", "${CI_COMMIT_SHA:0:8}", "${CI_REPO_BRANCH}"]
