@@ -1,12 +1,4 @@
-
 tasks:
-  unit-test:
-    runner: razorci/openjdk:11-buster
-    steps:
-    - checkout
-    - commands:
-      - |
-        tasks:
   unit-test:
     runner: razorci/openjdk:11-buster
     steps:
