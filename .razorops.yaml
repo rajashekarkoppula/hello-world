@@ -12,7 +12,7 @@ tasks:
         cd webapp
         ls target
     - docker/build:
-         image: shivaawstest.jfrog.io/default-docker
+         image: shivaawstest.jfrog.io/default-docker 
          push: true
          #tags: ["latest-v1", "${CI_COMMIT_SHA:0:8}", "${CI_REPO_BRANCH}"]
          tags: ["latest-v1"]
