@@ -17,5 +17,5 @@ tasks:
          #tags: ["latest-v1", "${CI_COMMIT_SHA:0:8}", "${CI_REPO_BRANCH}"]
          tags: ["latest-v1"]
         #mvn clean package
-        #chmod 600 ~/.ssh/*
+        #chmod 600 ~/.ssh/* 
         #scp -r target/spring3-mvc-maven-xml-hello-world-1.2.war ubuntu@15.207.247.7:/opt/apache-tomcat-8.5.81/webapps
